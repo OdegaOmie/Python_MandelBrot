@@ -1,0 +1,5 @@
+python3.7 -m pip install --upgrade pip setuptools virtualenv
+python3.7 -m virtualenv ~/mandelbrot_venv
+cd ~/mandelbrot_venv/bin/    
+virtualenv activate
+pip install -r requirements.txt
